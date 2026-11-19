@@ -25,5 +25,5 @@ jobs:
           push: true
           provenance: false
           tags: |
-            ghcr.io/bon5co/discourse-railway:2026.7.6
+            ghcr.io/bon5co/discourse-railway:2026.11.0-latest.2
             ghcr.io/bon5co/discourse-railway:latest

@@ -9,7 +9,7 @@
 # plugins/blog/plugin.rb came back and the app refused to start ("INCOMPATIBLE PLUGIN ... register_homepage"), while the same
 # image booted on a local docker.
 # upstream: discourse/discourse
-FROM discourse/discourse:2026.7.6@sha256:f0d1a8babba56c9f2709cef1d7f1f75f9fde9c35e0bf96b3c2435d9493222b3e AS upstream
+FROM discourse/discourse:2026.11.0-latest.2@sha256:b762c0ce618d6311c78153c32a3301b7193554f37dc47cea029729f9a078a8c1 AS upstream
 
 # upstream: none flattened copy of the pinned upstream stage above
 FROM scratch
